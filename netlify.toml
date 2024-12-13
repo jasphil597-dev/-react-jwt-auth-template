@@ -1,6 +1,6 @@
 [build]
   command = "npm run build" # or yarn build, depending on your setup
-  publish = "public"          # The directory where your Vite build outputs
+  publish = "dist"          # The directory where your Vite build outputs
 
 [[redirects]]
   from = "/*"
